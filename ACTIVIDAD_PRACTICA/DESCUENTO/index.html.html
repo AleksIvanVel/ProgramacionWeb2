@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa 004 - Descuento</title>
+</head>
+<body>
+    <h1>Programa de Descuento e IVA</h1>
+
+    <!-- Formulario para ingresar datos -->
+    <form id="product-form">
+        <label for="numProductos">Número de Productos:</label>
+        <input type="number" id="numProductos" min="1" required><br><br>
+
+        <div id="productosContainer">
+            <!-- Aquí se generarán los campos de costo por producto -->
+        </div>
+
+        <button type="submit">Calcular</button>
+    </form>
+
+    <h2>Resultados</h2>
+    <p id="listaProductos"></p>
+    <p id="costoTotalSinDescuento"></p>
+    <p id="costoConDescuentoSinIVA"></p>
+    <p id="costoConDescuentoConIVA"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
