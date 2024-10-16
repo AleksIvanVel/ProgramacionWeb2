@@ -8,8 +8,16 @@ function calcula(operacion){
 }
 
 function muestraD(){
-    let valorN = document.getElementById('nombre').value;
-    let valorMuly = document.getElementById('miltiLi').value;
+    //texto unilinea
+    let valorN = document.getElementById("nombre").value;
+
+    //texto multilinea
+    let valorMulti = document.getElementById('multiLi').value;
+
+    //menu desplegable - direccionar siempre con ID 
+    let mDes = document.getElementById("menuDesp");
+    let itemMenuDes = mDes.options[mDes.selectedIndex].value;
+
 
     let radio = document.getElementsByName('opcR');
 
@@ -19,4 +27,9 @@ function muestraD(){
             console.log(valRad);
         }
     }
+
+    //Salida de datos
+    document.write("<h2>Su nombre es: </h2>", valorN);
+    document.write("<h2>Valor multilinea es: </h2>", valorMulti);
+    document.write("<h2>Valor seleccionado del menu deplegable: </h2>", itemMenuDes);
 }

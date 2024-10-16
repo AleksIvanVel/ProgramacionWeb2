@@ -7,11 +7,21 @@
 </head>
 <body>
     <form action="" name="datos">
-        <p>Nombre: <input type="text" name="" id="nombre"></p>
+        <h2>Extraer Datos</h2>
 
-        <p>Multimedia</p>
-        <textarea type="text" name="" id="miltiLi" rows="7"
+        <p>Nombre: <input type="text" id="nombre"></p>
+
+        <p>Input Multilinea</p>
+        <textarea type="text" name="" id="multiLi" rows="7"
          cols="40" placeholder="Describa..."></textarea>
+
+         <p>Menu desplegable</p>
+         <select id="menuDesp">
+            <option selected="select" value="">...</option>
+            <option value="opcion 1">opcion 1</option>
+            <option value="opcion 2">opcion 2</option>
+            <option value="opcion 3">opcion 3</option>
+         </select>
 
         <p>Radio
             <input value="opc1" type="radio" name="opcR">Opcion 1
@@ -19,7 +29,7 @@
             <input value="opc2" type="radio" name="opcR">Opcion 3
         </p>
 
-        <button id="botonM" onclick="muestraD();">ENVIAR</button>
+        <button id="btnEnviar" onclick="muestraD();">ENVIAR</button>
         
     </form>
 </body>
