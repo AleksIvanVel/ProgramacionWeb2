@@ -18,6 +18,27 @@ function muestraD(){
     let mDes = document.getElementById("menuDesp");
     let itemMenuDes = mDes.options[mDes.selectedIndex].value;
 
+    // check box
+    let cb1 = document.getElementById("chec1");
+    let cb2 = document.getElementById("chec2");
+    let cb3 = document.getElementById("chec3");
+    
+    if (cb1.checked == true){
+        var vcb1 = cb1.value;
+        console.log(vcb1)
+    }else{
+        vcb1 = "-";
+    }
+
+    if (cb2.checked == true){
+        var vcb2 = cb2.value;
+        console.log(vcb2)
+    }else{
+        vcb2 = "-";
+    }
+
+
+
 
     let radio = document.getElementsByName('opcR');
 
