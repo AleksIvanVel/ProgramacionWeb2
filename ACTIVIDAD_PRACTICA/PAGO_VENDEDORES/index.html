@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Pago de Vendedores</h1>
+
+        <table id="regTab">
+            <thead>
+                <th>Nombre del vendedor</th>
+                <th>Sueldo base</th>
+                <th>Venta 1</th>
+                <th>Venta 2</th>
+                <th>Venta 3</th>               
+            </thead>
+            <tbody id="tbody">
+                <td><input type="text" placeholder="Nombre" id="nombre"></td>
+                <td><input type="number" placeholder="Sueldo base" id="sb"></td>
+                <td><input type="number" placeholder="Venta 1" id="v1"></td>
+                <td><input type="number" placeholder="Venta 2" id="v2"></td>
+                <td><input type="number" placeholder="venta 3" id="v3"></td>
+                <td><button id="calcular" onclick="calcularSueldo();">CALCULAR SUELDO</button></td>
+            </tbody>
+        </table>
+
+        <table id="resTab">
+            <tbody id="tResBody">
+
+            </tbody>
+        </table>
+    </div>
+</body>
+<script src="pagoVendedoresJS.js"></script>
+</html>
