@@ -1,0 +1,111 @@
+body{
+    padding: 30px;
+
+}
+
+.img_area{
+    width: 300px;
+    position: center;;
+}
+
+/* MASTER CHIEF */
+#btn_masterChief{
+    width: 10em;
+    position: relative;
+    height: 3.5em;
+    border: 3px ridge #149CEA;
+    outline: none;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    transition: 1s;
+    border-radius: 0.3em;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#btn_masterChief:hover::before, #btn_masterChief:hover::after {
+    transform: scale(0)
+  }
+  
+#btn_masterChief:hover {
+    box-shadow: inset 0px 0px 25px #1479EA;
+  }
+
+  /* CORTANA */
+#btn_cortana{
+    width: 10em;
+    position: relative;
+    height: 3.5em;
+    border: 3px ridge #149CEA;
+    outline: none;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    transition: 1s;
+    border-radius: 0.3em;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#btn_cortana:hover::before, #btn_cortana:hover::after {
+    transform: scale(0)
+  }
+  
+#btn_cortana:hover {
+    box-shadow: inset 0px 0px 25px #1479EA;
+  }
+
+  /* EQUIPO PLATA */
+  #btn_eq_plata{
+    width: 10em;
+    position: relative;
+    height: 3.5em;
+    border: 3px ridge #149CEA;
+    outline: none;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    transition: 1s;
+    border-radius: 0.3em;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#btn_eq_plata:hover::before, #btn_eq_plata:hover::after {
+    transform: scale(0)
+  }
+  
+#btn_eq_plata:hover {
+    box-shadow: inset 0px 0px 25px #1479EA;
+}
+
+/* DOC. HALSEY */
+#btn_halsey{
+    width: 10em;
+    position: relative;
+    height: 3.5em;
+    border: 3px ridge #149CEA;
+    outline: none;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    transition: 1s;
+    border-radius: 0.3em;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#btn_halsey:hover::before, #btn_halsey:hover::after {
+    transform: scale(0)
+  }
+  
+#btn_halsey:hover {
+    box-shadow: inset 0px 0px 25px #1479EA;
+}
+
+
+#descripcion{
+    width: 645px;
+    height: 250px;
+}
