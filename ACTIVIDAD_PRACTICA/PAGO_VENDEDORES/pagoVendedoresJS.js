@@ -4,8 +4,8 @@ let  sueldoTot
     let nombre = document.getElementById("nombre");
     let sueldoBase = parseFloat(document.getElementById("sb").value);
     let venta1 = parseFloat(document.getElementById("v1").value);
-    let venta2 = parseFloat(document.getElementById("v1").value);
-    let venta3 = parseFloat(document.getElementById("v1").value);
+    let venta2 = parseFloat(document.getElementById("v2").value);
+    let venta3 = parseFloat(document.getElementById("v3").value);
 
     let venta = venta1 + venta2 + venta3;
     console.log(venta)
@@ -13,7 +13,7 @@ let  sueldoTot
     if(venta < 2000 ){
         sueldoTot = sueldoBase;
     }
-    if(venta >= 2000 && venta <= 500){
+    if(venta >= 2000 && venta <= 5000){
         sueldoTot = (sueldoBase * 0.05) + sueldoBase;
     }
     if(venta > 5000){
